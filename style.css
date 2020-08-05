@@ -82,6 +82,7 @@ nav .nav-link:hover {
 
 nav .dropdown-menu {
   padding: 0;
+  padding-top: 10px;
   border: 1px solid #ef962d;
   border-radius: 0;
   -webkit-border-radius: 0;
@@ -123,12 +124,12 @@ nav button:focus {
 }
 
 nav .dropdown-menu{
-  background: transparent;
+  background-color: #ef962d;
 }
 
-nav .dropdown-item:hover {
+nav .dropdown-item:hover { 
   background-color: #ef962d;
-  color: #fff;
+  color: #000!important;
 }
 /* === NAVBAR END === */
 
@@ -270,6 +271,7 @@ nav .dropdown-item:hover {
 
   nav .dropdown-menu {
     border: 1px solid #fff;
+    padding-top: 0;
   }
 
   nav .dropdown-item{
