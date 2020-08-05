@@ -16,6 +16,18 @@ h1 {
   font-size: 60px;
 }
 
+h2 {
+  font-size: 50px;
+}
+
+h3 {
+  font-size: 40px;
+}
+
+h4 {
+  font-size: 30px;
+}
+
 p {
   font-size: 18px;
 }
@@ -35,7 +47,7 @@ p {
 }
 
 .btn:hover {
-  background-color: rgb(239, 148, 45, 0.8);
+  background-color: #ca7513;
 }
 /* === REUSABLE END === */
 
@@ -44,19 +56,28 @@ p {
 nav {
   font-weight: 500;
   text-transform: uppercase;
+  
+}
+
+nav .collapse{
+  padding: 12px 0;
+  background-color: #ef962d;
+  border: 1px solid #fff;
+}
+nav .navbar-nav {
+  text-align: center!important;
 }
 
 nav img{
   width: 250px;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
 }
 
 nav .nav-link {
   margin: 0 10px;
+}
+
+nav .nav-link:hover {
+  color: #000!important;
 }
 
 nav .dropdown-menu {
@@ -78,35 +99,26 @@ nav .dropdown-item{
   color: #FFF!important;
 }
 
-nav .nav-link:hover {
-  border-bottom: 1px solid #ef962d;
-}
-
-nav .nav-link:hover, 
 nav .fa {
-  color: #ef962d!important;
+  color: #fff!important;
+  font-size: 30px;
+  margin-right: 15px;
 }
-
-
 
 nav .navbar-toggler {
-  border-color: #ef962d!important;
+  border-color: #fff!important;
+  background-color: #ef962d;
   width: 50px;
   height: 50px;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
 }
 
 nav button:focus {
   outline: 0!important;
-}
-
-nav .fa {
-  font-size: 30px;
-  margin-right: 10px;
 }
 
 nav .dropdown-menu{
@@ -179,6 +191,54 @@ nav .dropdown-item:hover {
 /* === CAROUSEL START === */
 
 
+/* === ABOUT US SECTION START === */
+#about-us {
+  background: #FEFAF1;
+}
+
+#about-us .welcome {
+  max-width: 700px;
+  margin: auto;
+}
+
+#about-us fieldset {
+  border: 1px solid #ef962d;
+}
+
+#about-us legend {
+  width: auto;
+  text-align: center;
+  padding: 0 25px;
+}
+
+#about-us .small {
+  font-size: 16px;
+  color: #BCBCBC;
+}
+
+#about-us h2 {
+  color: #242424;
+}
+
+#about-us p {
+  color: #747474;
+}
+
+#about-us .btn {
+  color: #fff;
+}
+
+#about-us .btn {
+  color: #fff;
+}
+
+#about-us img {
+  margin-top: 36px;
+}
+
+/* === ABOUT US SECTION END === */
+
+
 /* === MEDIA QUERIES START === */
 @media (max-width: 1200px){
   
@@ -204,12 +264,7 @@ nav .dropdown-item:hover {
   }
 
   nav img{
-    width: 200px;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    width: 220px;
   }
 
   nav .dropdown-menu {
@@ -221,7 +276,7 @@ nav .dropdown-item:hover {
   }
 
   nav .navbar-collapse {
-    margin-top: 10px;
+    margin-top: 5px;
     background-color: #ef962d;
     padding: 20px 0;
     text-align: center;
