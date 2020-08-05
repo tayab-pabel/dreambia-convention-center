@@ -91,15 +91,22 @@ nav .fa {
 
 nav .navbar-toggler {
   border-color: #ef962d!important;
-  border-radius: 0;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  -ms-border-radius: 0;
-  -o-border-radius: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+nav button:focus {
+  outline: 0!important;
 }
 
 nav .fa {
   font-size: 30px;
+  margin-right: 10px;
 }
 
 nav .dropdown-menu{
