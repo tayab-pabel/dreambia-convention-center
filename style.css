@@ -351,7 +351,7 @@ header .middle-border{
     font-size: 45px;
   }
 
-  .middle-border{
+  header .middle-border{
     width: 400px;
   }
 
@@ -365,7 +365,7 @@ header .middle-border{
     font-size: 40px;
   }
   
-  .middle-border{
+  header .middle-border{
     width: 300px;
   }
 
@@ -398,7 +398,7 @@ header .middle-border{
     font-size: 35px;
   }
 
-  .middle-border{
+  header .middle-border{
     width: 200px;
   }
   
