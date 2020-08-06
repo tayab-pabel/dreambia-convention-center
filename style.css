@@ -9,26 +9,35 @@ body {
 
 h1, h2, h3, h4, h5, h6, nav, .btn  {
   font-family: 'Marcellus', serif;
-  font-weight: 700;
+}
+
+h2, h3, h4, h5, h6 {
+  font-weight: 500;
 }
 
 h1 {
   font-size: 60px;
+  font-weight: 700;
 }
 
 h2 {
   font-size: 50px;
-  font-weight: 500;
 }
 
 h3 {
   font-size: 40px;
-  font-weight: 700;
 }
 
 h4 {
   font-size: 30px;
-  font-weight: 500;
+}
+
+h5 {
+  font-size: 25px;
+}
+
+h6 {
+  font-size: 22px;
 }
 
 p {
@@ -83,6 +92,10 @@ legend {
 
 .icon:hover {
   background-color: #ca7513;
+}
+
+.break-img {
+  height: 30px;
 }
 /* === REUSABLE END === */
 
@@ -162,11 +175,12 @@ nav .dropdown-item:hover {
 
 
 /* === CAROUSEL START === */
-.carousel .carousel-item {
+header .carousel .carousel-item {
   height: 100vh;
 }
 
-.carousel .carousel-indicators li{
+header .carousel .carousel-indicators li,
+#testimonial .carousel .carousel-indicators li{
   height: 15px;
   width: 15px;
   border: 2px solid #FFF;
@@ -180,38 +194,39 @@ nav .dropdown-item:hover {
   -o-border-radius: 50%;
 }
 
-.carousel .carousel-indicators .active{
+header .carousel .carousel-indicators .active,
+#testimonial .carousel .carousel-indicators .active{
   background-color: #ef962d;
 }
 
-.carousel  .banner1 {
+header .carousel  .banner1 {
   background-image: url("images/slide1.png");
 }
 
-.carousel .banner2 {
+header .carousel .banner2 {
   background-image: url("images/slide2.png");
 }
 
-.carousel .banner3 {
+header .carousel .banner3 {
   background-image: url("images/slide3.png");
 }
 
-.carousel .carousel-caption {
+header .carousel .carousel-caption {
   top: 55%;
   transform: translateY(-50%);
   bottom: initial;
 }
 
-.carousel .banner1, 
-.carousel .banner2, 
-.carousel .banner3 {
+header .carousel .banner1, 
+header .carousel .banner2, 
+header .carousel .banner3 {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   height: 100vh;
 }
 
-.middle-border{
+header .middle-border{
   padding-top: 10px;
   width: 500px;
   margin: auto;
@@ -221,10 +236,6 @@ nav .dropdown-item:hover {
 
 
 /* === ABOUT US SECTION START === */
-/* #about-us {
-  background: ;
-} */
-
 #about-us .welcome {
   max-width: 700px;
   margin: auto;
@@ -252,14 +263,9 @@ nav .dropdown-item:hover {
 #about-us img {
   margin-top: 36px;
 }
-
 /* === ABOUT US SECTION END === */
 
 /* === PLAN SECTION START === */
-#plan {
-  
-}
-
 #plan h3 {
   padding-top: 50%;
   font-weight: 500;
@@ -301,6 +307,40 @@ nav .dropdown-item:hover {
 /* === PLAN SECTION END === */
 
 
+/* === TESTIMONIAL SECTION START === */
+#testimonial {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("images/testimonial-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+#testimonial .fas {
+  color: #ef962d;
+  font-size: 50px;
+}
+
+#testimonial .carousel-inner{
+  max-width: 600px;
+}
+
+#testimonial a{
+  margin-bottom: 100px;
+}
+
+#testimonial .control-icon {
+  font-size: 30px;
+  background-color: #FFF;
+  border: 0px solid #FFF;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+/* === TESTIMONIAL SECTION END === */
+
 /* === MEDIA QUERIES START === */
 @media (max-width: 1200px){
   
@@ -313,6 +353,10 @@ nav .dropdown-item:hover {
 
   .middle-border{
     width: 400px;
+  }
+
+  #testimonial a{
+    margin-top: 200px;
   }
 }
 
