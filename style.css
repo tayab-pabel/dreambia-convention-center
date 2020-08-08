@@ -248,7 +248,7 @@ header .middle-border{
   color: #242424;
 }
 
-#about-us p, #why-us p {
+#about-us p, #why-us p, #fact p, #process p {
   color: #747474;
 }
 
@@ -341,7 +341,21 @@ header .middle-border{
 }
 /* === TESTIMONIAL SECTION END === */
 
-/* === MEDIA QUERIES START === */
+/* === FACT SECTION START === */
+#fact, #process {
+  background-color: #F4F0EF;
+}
+
+#fact h2, #process h2 {
+  color: #ef962d;
+}
+
+#fact p {
+  font-weight: 700;
+}
+/* === FACT SECTION END === */
+
+/* === MEDIA QUERIES END === */
 @media (max-width: 1200px){
   
 }
