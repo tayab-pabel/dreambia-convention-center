@@ -234,58 +234,6 @@ header .middle-border{
 }
 /* === CAROUSEL START === */
 
-/* === BOOK SECTION START === */
-#book .book-form {
-  max-width: 500px;
-  margin: auto;
-}
-
-#book input,
-#book select,
-#book textarea{
-  font-size: 12px;
-  border-left: 0;
-  border-right: 0;
-  border-radius: 0;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  -ms-border-radius: 0;
-  -o-border-radius: 0;
-}
-
-#book input:focus,
-#book textarea:focus {
-  border-color: #ef962d;
-}
-
-#book label {
-  font-size: 12px;
-}
-
-#book input[type="date"]{
-  border: 0px;
-  font-size: 12px;
-  text-transform: uppercase;
-}
-
-#book select,
-#book input[type="date"]{
-  cursor: pointer;
-}
-
-#book .date {
-  border-top: 1px solid #CED4DA;
-  border-bottom: 1px solid #CED4DA;
-}
-
-#book input[type="submit"]{
-  font-size: 15px;
-}
-
-#book input[type="submit"]:hover{
-  color: #fff;
-}
-/* === BOOK SECTION END === */
 
 
 /* === ABOUT US SECTION START === */
@@ -317,6 +265,8 @@ header .middle-border{
   margin-top: 36px;
 }
 /* === ABOUT US SECTION END === */
+
+
 
 /* === PLAN SECTION START === */
 #plan h3 {
@@ -360,6 +310,7 @@ header .middle-border{
 /* === PLAN SECTION END === */
 
 
+
 /* === TESTIMONIAL SECTION START === */
 #testimonial {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("images/testimonial-bg.jpg");
@@ -394,6 +345,8 @@ header .middle-border{
 }
 /* === TESTIMONIAL SECTION END === */
 
+
+
 /* === FACT SECTION START === */
 #fact, #process {
   background-color: #F4F0EF;
@@ -408,6 +361,8 @@ header .middle-border{
 }
 /* === FACT SECTION END === */
 
+
+
 /* === REQUEST SECTION START === */
 #request {
   background: url("images/bg-request.jpg");
@@ -421,6 +376,64 @@ header .middle-border{
   font-weight: 500;
 }
 /* === REQUEST SECTION END === */
+
+
+
+/* === BOOK SECTION START === */
+#book {
+  max-width: 600px;
+  margin: auto;
+}
+
+#book input,
+#book select,
+#book textarea{
+  font-size: 12px;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+
+#book input:focus,
+#book textarea:focus {
+  border-color: #ef962d;
+  box-shadow: none;
+}
+
+#book label {
+  font-size: 12px;
+}
+
+#book input[type="date"]{
+  border: 0px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+#book select,
+#book input[type="date"]{
+  cursor: pointer;
+}
+
+#book .date {
+  border-top: 1px solid #CED4DA;
+  border-bottom: 1px solid #CED4DA;
+}
+
+#book input[type="submit"]{
+  font-size: 15px;
+}
+
+#book input[type="submit"]:hover{
+  color: #fff;
+}
+/* === BOOK SECTION END === */
+
+
 
 /* === MEDIA QUERIES END === */
 @media (max-width: 1200px){
