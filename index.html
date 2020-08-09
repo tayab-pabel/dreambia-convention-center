@@ -93,7 +93,7 @@
             <h1 class="animate__animated animate__fadeInUp">PERFECT DAY & TIME</h1>
             <p class="animate__animated animate__fadeInUp">Apparently we had reached a great height in the atmosphere</p>
             <div class="middle-border animate__animated animate__fadeInUp"></div>
-            <a class="btn animate__animated animate__fadeInUp">SEE MORE</a>
+            <a href="about.html" class="btn animate__animated animate__fadeInUp">SEE MORE</a>
           </div>
         </div>
         <div class="carousel-item">
@@ -103,7 +103,7 @@
             <h1 class="animate__animated animate__fadeInUp">OF SENSATIONAL FOOD</h1>
             <p class="animate__animated animate__fadeInUp">Apparently we had reached a great height in the atmosphere</p>
             <div class="middle-border animate__animated animate__fadeInUp"></div>
-            <a class="btn animate__animated animate__fadeInUp">SEE MORE</a>
+            <a href="about.html" class="btn animate__animated animate__fadeInUp">SEE MORE</a>
           </div>
         </div>
         <div class="carousel-item">
@@ -113,7 +113,7 @@
             <h1 class="animate__animated animate__fadeInUp">PROFESSIONAL STAFF</h1>
             <p class="animate__animated animate__fadeInUp">Apparently we had reached a great height in the atmosphere</p>
             <div class="middle-border animate__animated animate__fadeInUp"></div>
-            <a class="btn animate__animated animate__fadeInUp">SEE MORE</a>
+            <a href="about.html" class="btn animate__animated animate__fadeInUp">SEE MORE</a>
           </div>
         </div>
       </div>
@@ -138,7 +138,7 @@
             <legend><h2>About Us</h2></legend>
             <p class="small">Discover our story</p>
             <p class="px-5 text-left">Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. By the same illusion which lifts the horizon of the sea to the level of the spectator on a hillside…</p>
-            <a class="btn mb-5">SEE MORE</a>
+            <a href="about.html" class="btn mb-5">SEE MORE</a>
           </fieldset>
         </div>
         <div class="col-md-6">
@@ -218,34 +218,34 @@
         <p class="small">For all your needs</p>
         <div class="row p-3">
           <div class="col-lg-3 col-md-6 col-sm-12">
-            <a href="">
+            <a  href="#book">
               <div class="single-plan wedding mt-3">
                 <h3>Wedding</h3>
-                <a class="btn">BOOK NOW</a>
+                <a href="#book" class="btn">BOOK NOW</a>
               </div>
             </a>
           </div>
           <div class="col-lg-3 col-md-6 col-sm-12">
-            <a href="">
+            <a href="#book">
               <div class="single-plan crporate mt-3">
                 <h3>Corporate</h3>
-                <a class="btn">BOOK NOW</a>
+                <a href="#book" class="btn">BOOK NOW</a>
               </div>
             </a>
           </div>
           <div class="col-lg-3 col-md-6 col-sm-12">
-            <a href="">
+            <a href="#book">
               <div class="single-plan parties mt-3">
                 <h3>Parties</h3>
-                <a class="btn">BOOK NOW</a>
+                <a href="#book" class="btn">BOOK NOW</a>
               </div>
             </a>
           </div>
           <div class="col-lg-3 col-md-6 col-sm-12">
-            <a href="">
+            <a href="#book">
               <div class="single-plan event mt-3">
                 <h3>Event</h3>
-                <a class="btn">BOOK NOW</a>
+                <a href="#book" class="btn">BOOK NOW</a>
               </div>
             </a>
           </div>
@@ -397,7 +397,7 @@
         <div class="col-12">
           <div class="div py-5">
             <h1>Let Us Make Your Wedding Flawless</h1>
-            <a class="btn">SEND REQUEST</a>
+            <a href="#book" class="btn">SEND REQUEST</a>
           </div>
         </div>
       </div>
@@ -406,6 +406,68 @@
   <!-- REQUEST SECTION END -->
 
 
+  <!-- BOOK SECTION START -->
+  <section id="book" class="py-5 text-center">
+    <img class="img-fluid break-img" src="images/break-bg.png" alt="break-img">
+    <div class="container py-5">
+      <fieldset>
+        <legend><h3>Book Now</h3></legend>
+        <p class="small">For all your needs</p>
+        <div class="row">
+          <div class="col-12">
+            <div class="div book-form px-2">
+              <form action="#" method="POST" class="pb-3">
+                <div class="form-group">
+                <input type="text" placeholder="YOUR NAME" class="form-control" required>
+                </div>
+                <div class="form-group">
+                <input type="email" placeholder="YOUR MAIL" class="form-control" required>
+                </div>
+                <div class="form-group">
+                  <input type="text" placeholder="PHONE NUMBER" class="form-control" required>
+                </div>
+                <div class="form-group">
+                  <input type="text" placeholder="EVENT NAME" class="form-control" required>
+                </div>
+                <div class="form-group">
+                  <select class="form-control" id="exampleFormControlSelect1" required>
+                    <option>- SELECT TYPE OF EVENT -</option>
+                    <option>WEDDING</option>
+                    <option>CORPORATE</option>
+                    <option>PARTIES</option>
+                    <option>BARTHDAY</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <select class="form-control" id="exampleFormControlSelect1" required>
+                    <option>- SELECT VENEU -</option>
+                    <option>EAST HALL</option>
+                    <option>WEST HALL</option>
+                    <option>NORTH HALL</option>
+                    <option>SOUTH HALL</option>
+                  </select>
+                </div>
+                <div class="form-group date text-left d-flex flex-row align-items-center">
+                  <label for="today" class="ml-3 mt-2">SELECT DATE</label>
+                  <input class="ml-5" type="date" id="today" required>
+                </div>
+                <div class="form-group">
+                  <input type="text" placeholder="ESTIMATED NUMBER OF ATTENDANCE (10-3000)" class="form-control" required>
+                </div>
+                <div class="form-group">
+                <textarea class="form-control" placeholder="SPECIAL REQUESTS"></textarea>
+                </div>
+                <input type="submit" class="btn btn-block btn-send" value="SUBMIT">
+              </form>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+    </div>
+  </section>
+  <!-- BOOK SECTION END -->
+
+  
 
   <!-- EXTERNAL JS -->
   <script src="main.js"></script>
