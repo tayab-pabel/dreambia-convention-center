@@ -355,6 +355,20 @@ header .middle-border{
 }
 /* === FACT SECTION END === */
 
+/* === REQUEST SECTION START === */
+#request {
+  background: url("images/bg-request.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+#request h1 {
+  font-weight: 500;
+}
+/* === REQUEST SECTION END === */
+
 /* === MEDIA QUERIES END === */
 @media (max-width: 1200px){
   
