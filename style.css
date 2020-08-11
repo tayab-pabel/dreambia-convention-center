@@ -457,7 +457,7 @@ header .middle-border{
 }
 
 #footer img {
-  width: 300px;
+  width: 250px;
 }
 
 #footer p {
@@ -470,6 +470,10 @@ header .middle-border{
   font-size: 15px;
   font-weight: 300;
   
+}
+
+#footer hr {
+  background-color: #ef962d;
 }
 
 #footer li {
