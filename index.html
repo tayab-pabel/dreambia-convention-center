@@ -44,33 +44,36 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="book.html">Book Online</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                About
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="about.html">About Us</a>
+                <a class="dropdown-item" href="gallery.html">Gallery</a>
+              </div>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Services
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Wedding</a>
-                <a class="dropdown-item" href="#">Corporate</a>
-                <a class="dropdown-item" href="#">Parties</a>
-                <a class="dropdown-item" href="#">Event</a>
+                <a class="dropdown-item" href="wedding.html">Wedding</a>
+                <a class="dropdown-item" href="corporate.html">Corporate</a>
+                <a class="dropdown-item" href="parties.html">Parties</a>
+                <a class="dropdown-item" href="food.html">Food Menu</a>
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Menu</a>
+              <a class="nav-link" href="venues.html">Venues</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Venues</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Gallery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link last-nav-link" href="#">Contact</a>
+              <a class="nav-link last-nav-link" href="contact.html">Contact</a>
             </li>
           </ul>
         </div>
@@ -93,7 +96,7 @@
             <h1 class="animate__animated animate__fadeInUp">PERFECT DAY & TIME</h1>
             <p class="animate__animated animate__fadeInUp">Apparently we had reached a great height in the atmosphere</p>
             <div class="middle-border animate__animated animate__fadeInUp"></div>
-            <a href="about.html" class="btn animate__animated animate__fadeInUp">SEE MORE</a>
+            <a href="book.html" class="btn animate__animated animate__fadeInUp">BOOK NOW</a>
           </div>
         </div>
         <div class="carousel-item">
@@ -103,7 +106,7 @@
             <h1 class="animate__animated animate__fadeInUp">OF SENSATIONAL FOOD</h1>
             <p class="animate__animated animate__fadeInUp">Apparently we had reached a great height in the atmosphere</p>
             <div class="middle-border animate__animated animate__fadeInUp"></div>
-            <a href="about.html" class="btn animate__animated animate__fadeInUp">SEE MORE</a>
+            <a href="book.html" class="btn animate__animated animate__fadeInUp">BOOK NOW</a>
           </div>
         </div>
         <div class="carousel-item">
@@ -113,7 +116,7 @@
             <h1 class="animate__animated animate__fadeInUp">PROFESSIONAL STAFF</h1>
             <p class="animate__animated animate__fadeInUp">Apparently we had reached a great height in the atmosphere</p>
             <div class="middle-border animate__animated animate__fadeInUp"></div>
-            <a href="about.html" class="btn animate__animated animate__fadeInUp">SEE MORE</a>
+            <a href="book.html" class="btn animate__animated animate__fadeInUp">BOOK NOW</a>
           </div>
         </div>
       </div>
@@ -123,15 +126,53 @@
   </header>
   <!-- HEADER END -->
 
-  
+
+
+  <!-- CONTACT INFO SECTION END -->
+  <section id="contact-info" class="text-center py-5">
+    <img class="img-fluid break-img" src="images/break-bg.png" alt="break-img">
+    <div class="container pt-5">
+      <div class="row welcome">
+        <h3>Welcome to Dreambia Convention Center, a premier convention center in Dhaka, Bangladesh.</h3>
+      </div>
+      <div class="row text-left pt-4">
+        <div class="col-md-4">
+          <div class="contact-info-single d-flex justify-content-sm-center align-items-center mt-3">
+            <img class="img-fluid" src="images/icon/call.png" alt="call">
+            <div class="info-title ml-4">
+              <h5>Call for Booking </h5>
+              <p>+8801761483999</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="contact-info-single d-flex justify-content-sm-center align-items-center mt-3">
+            <img class="img-fluid" src="images/icon/clock.png" alt="clock">
+            <div class="info-title ml-4">
+              <h5>Office Hours</h5>
+              <p>9:00 - 5:00 PM</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="contact-info-single d-flex justify-content-sm-center align-items-center mt-3">
+            <img class="img-fluid" src="images/icon/address.png" alt="address">
+            <div class="info-title ml-4">
+              <h5>Address</h5>
+              <p>Nikunja 2, Dhaka - 1229</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- CONTACT INFO SECTION END -->
+
+
 
   <!-- ABOUT US SECTION START -->
   <section id="about-us" class="text-center">
-    <img class="img-fluid break-img" src="images/break-bg.png" alt="break-img">
     <div class="container py-5">
-      <div class="row welcome pb-5">
-        <h4>Welcome to Dreambia Convention Center, a premier convention center in Dhaka, Bangladesh.</h4>
-      </div>
       <div class="row">
         <div class="col-md-6">
           <fieldset>
@@ -151,8 +192,25 @@
 
 
 
+  <!-- REQUEST SECTION START -->
+  <section id="request" class="py-5 text-center">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-12">
+          <div class="div py-5">
+            <h1>Let Us Make Your Wedding Flawless</h1>
+            <a href="book.html" class="btn">SEND REQUEST</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- REQUEST SECTION END -->
+
+
+
   <!-- WHY US SECTION START -->
-  <section id="why-us" class="text-center">
+  <section id="why-us" class="text-center pt-5">
     <img class="img-fluid break-img" src="images/break-bg.png" alt="break-img">
     <div class="container py-5">
       <fieldset>
@@ -221,7 +279,7 @@
             <a  href="#book">
               <div class="single-plan wedding mt-3">
                 <h3>Wedding</h3>
-                <a href="#book" class="btn">BOOK NOW</a>
+                <a href="book.html" class="btn">BOOK NOW</a>
               </div>
             </a>
           </div>
@@ -229,7 +287,7 @@
             <a href="#book">
               <div class="single-plan crporate mt-3">
                 <h3>Corporate</h3>
-                <a href="#book" class="btn">BOOK NOW</a>
+                <a href="book.html" class="btn">BOOK NOW</a>
               </div>
             </a>
           </div>
@@ -237,7 +295,7 @@
             <a href="#book">
               <div class="single-plan parties mt-3">
                 <h3>Parties</h3>
-                <a href="#book" class="btn">BOOK NOW</a>
+                <a href="book.html" class="btn">BOOK NOW</a>
               </div>
             </a>
           </div>
@@ -245,7 +303,7 @@
             <a href="#book">
               <div class="single-plan event mt-3">
                 <h3>Event</h3>
-                <a href="#book" class="btn">BOOK NOW</a>
+                <a href="book.html" class="btn">BOOK NOW</a>
               </div>
             </a>
           </div>
@@ -308,62 +366,6 @@
 
 
 
-  <!-- FACT SECTION START -->
-  <section id="fact" class="pt-5 text-center">
-    <img class="img-fluid break-img" src="images/break-bg.png" alt="break-img">
-    <div class="container py-5">
-      <fieldset>
-        <legend><h3>Our Statistics</h3></legend>
-        <p class="small">Discover Our Story</p>
-        <div class="row p-4">
-          <div class="col-lg-3 col-md-6 col-sm-12">
-            <div class="py-4">
-              <h2>57+</h2>
-              <p>PERFECT WEDDINGS</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-12">
-            <div class="py-4">
-              <h2>21+</h2>
-              <p>LUXURY VENUES</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-12">
-            <div class="py-4">
-              <h2>43+</h2>
-              <p>AMAZING PARTIES</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-12">
-            <div class="py-4">
-              <h2>50+</h2>
-              <p>STAFF MEMBERS</p>
-            </div>  
-          </div>
-        </div>
-      </fieldset>
-  </section>
-  <!-- FACT SECTION END -->
-
-
-
-  <!-- REQUEST SECTION START -->
-  <section id="request" class="py-5 text-center">
-    <div class="container py-5">
-      <div class="row">
-        <div class="col-12">
-          <div class="div py-5">
-            <h1>Let Us Make Your Wedding Flawless</h1>
-            <a href="#book" class="btn">SEND REQUEST</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- REQUEST SECTION END -->
-
-
-
   <!-- PROCESS SECTION START -->
   <section id="process" class="pt-5 text-center">
     <img class="img-fluid break-img" src="images/break-bg.png" alt="break-img">
@@ -405,70 +407,28 @@
   </section>
   <!-- PROCESS SECTION END -->
 
-
-  <!-- BOOK SECTION START -->
-  <section id="book" class="py-5 text-center">
-    <div class="container py-5">
-      <fieldset>
-        <legend><h2>Book Now</h2></legend>
-        <p class="small">For all your needs</p>
-        <div class="row pt-3">
-          <div class="col-12">
-            <div class="div book-form px-2">
-              <form action="#" method="POST" class="pb-3">
-                <div class="form-group">
-                <input type="text" placeholder="YOUR NAME" class="form-control" required>
-                </div>
-                <div class="form-group">
-                <input type="email" placeholder="YOUR MAIL" class="form-control" required>
-                </div>
-                <div class="form-group">
-                  <input type="text" placeholder="PHONE NUMBER" class="form-control" required>
-                </div>
-                <div class="form-group">
-                  <input type="text" placeholder="EVENT NAME" class="form-control" required>
-                </div>
-                <div class="form-group">
-                  <select class="form-control" id="exampleFormControlSelect1" required>
-                    <option>- SELECT TYPE OF EVENT -</option>
-                    <option>WEDDING</option>
-                    <option>CORPORATE</option>
-                    <option>PARTIES</option>
-                    <option>BARTHDAY</option>
-                  </select>
-                </div>
-                <div class="form-group">
-                  <select class="form-control" id="exampleFormControlSelect1" required>
-                    <option>- SELECT VENEU -</option>
-                    <option>EAST HALL</option>
-                    <option>WEST HALL</option>
-                    <option>NORTH HALL</option>
-                    <option>SOUTH HALL</option>
-                  </select>
-                </div>
-                <div class="form-group date text-left d-flex flex-row align-items-center">
-                  <label for="today" class="ml-3 mt-2">SELECT DATE</label>
-                  <input class="ml-5" type="date" id="today" required>
-                </div>
-                <div class="form-group">
-                  <input type="text" placeholder="ESTIMATED NUMBER OF ATTENDANCE (10-3000)" class="form-control" required>
-                </div>
-                <div class="form-group">
-                <textarea class="form-control" placeholder="SPECIAL REQUESTS"></textarea>
-                </div>
-                <input type="submit" class="btn btn-block btn-send" value="SUBMIT">
-              </form>
-            </div>
+  <!-- BOOK-REQUEST SECTION START -->
+  <section id="book-request" class="py-5 text-center">
+    <div class="container">
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-md-9">
+          <div class="div">
+            <h3 class="mt-2">Book Your Tasting Session or Discuss Project</h3>
           </div>
         </div>
-      </fieldset>
+        <div class="col-md-3">
+          <div class="div">
+            <a href="book.html" class="btn mt-lg-0 mt-md-2">SEND REQUEST</a>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
-  <!-- BOOK SECTION END -->
+  <!-- BOOK-REQUEST SECTION END -->
 
 
   <!-- FOOTER SECTION START -->
-  <footer id="footer" class="footer py-5">
+  <footer id="footer" class="footer pt-5">
     <div class="container">
       <div class="row">
         <div class="col-md-6"> 
@@ -489,16 +449,16 @@
             <ul class="list-unstyled">
               <h5>Our Address</h5>
               <div class="text-left">
-                <li><a href="#">Nikunja 2, Dhaka - 1229</a></li>
-                <li><a href="#">+8801761483999</a></li>
-                <li><a href="#">info@dreambia.com</a></li>
+                <li>Nikunja 2, Dhaka - 1229</li>
+                <li>+8801761483999</li>
+                <li>info@dreambia.com</li>
               </div>
             </ul>
         </div>
       </div>
       <hr>
-      <div class="footer-bottom pt-3">
-        <div class="row d-flex justify-content-center mt-4">
+      <div class="footer-bottom py-3">
+        <div class="row d-flex justify-content-center">
           <div class="pr-2">
             <a href="#"><i class="fa fa-facebook"></i></a>
           </div>
@@ -509,7 +469,7 @@
           <a href="#"><i class="fa fa-linkedin"></i></a>
           </div>
         </div>
-        <div class="row justify-content-center mt-3">
+        <div class="row justify-content-center mt-2">
           <h6 class="copyright">Copyright 2020 &copy; Tayab Pabel</h6>
         </div>
       </div>

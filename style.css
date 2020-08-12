@@ -98,6 +98,27 @@ legend {
 .break-img {
   height: 30px;
 }
+
+#page-hero {
+  background: url("images/page-header-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+#page-hero h1 {
+  font-weight: 500;
+}
+
+#page-hero a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#page-hero a:hover {
+  color: #ef962d;
+}
 /* === REUSABLE END === */
 
 
@@ -172,6 +193,14 @@ nav .dropdown-item:hover {
   background-color: #ef962d;
   color: #000!important;
 }
+
+#contact-info .contact-info-single .info-title{
+  margin-top: 10px;
+}
+
+#contact-info .contact-info-single img {
+  width: 50px;
+}
 /* === NAVBAR END === */
 
 
@@ -238,11 +267,6 @@ header .middle-border{
 
 
 /* === ABOUT US SECTION START === */
-#about-us .welcome {
-  max-width: 700px;
-  margin: auto;
-}
-
 #about-us h2, 
 #why-us h2, 
 #why-us h4,
@@ -266,6 +290,17 @@ header .middle-border{
   margin-top: 36px;
 }
 /* === ABOUT US SECTION END === */
+
+
+/* === WHY US SECTION START === */
+#why-us legend img {
+  width: 200px;
+}
+
+#why-us .team-member img {
+  width: 100px;
+}
+/* === WHY US SECTION END === */
 
 
 
@@ -380,6 +415,19 @@ header .middle-border{
 
 
 
+/* === BOOK-REQUEST SECTION START === */
+#book-request {
+  background-color: #ef962d;
+  color: #fff;
+}
+
+#book-request .btn {
+  border: 1px solid #fff;
+}
+/* === BOOK-REQUEST SECTION END === */
+
+
+
 /* === BOOK SECTION START === */
 #book {
   background: url("images/book-bg.png");
@@ -464,7 +512,7 @@ header .middle-border{
  text-transform: none;
 }
 
-#footer p, #footer a {
+#footer p, #footer a, #footer ul li{
   color: #747474!important;
   font-weight: 500;
   font-size: 15px;
@@ -485,7 +533,7 @@ header .middle-border{
   text-decoration: none;
 }
 
-.footer .fa {
+.fa {
   width: 35px;
   height: 35px;
   padding: 10px;
@@ -498,7 +546,7 @@ header .middle-border{
   -o-border-radius: 50%;
 }
 
-.footer .fa:hover {
+.fa:hover {
   color: #ef962d;
   background: #fff;
 }
@@ -528,23 +576,10 @@ header .middle-border{
   #testimonial a{
     margin-top: 200px;
   }
-}
-
-@media (max-width: 786px){
-  h1 {
-    font-size: 40px;
-  }
-  
-  header .middle-border{
-    width: 300px;
-  }
-
-  nav img{
-    width: 220px;
-  }
 
   nav .dropdown-menu {
-    border: 1px solid #fff;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
     padding-top: 0;
   }
 
@@ -559,6 +594,20 @@ header .middle-border{
   nav .nav-link:hover, 
   nav .dropdown-item:hover{
     color: #FFF!important;
+  }
+}
+
+@media (max-width: 786px){
+  h1 {
+    font-size: 40px;
+  }
+  
+  header .middle-border{
+    width: 300px;
+  }
+
+  nav img{
+    width: 220px;
   }
 
 }
