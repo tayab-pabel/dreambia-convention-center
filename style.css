@@ -533,7 +533,7 @@ header .middle-border{
   text-decoration: none;
 }
 
-.fa {
+footer .fa , #why-us .fa{
   width: 35px;
   height: 35px;
   padding: 10px;
@@ -546,7 +546,7 @@ header .middle-border{
   -o-border-radius: 50%;
 }
 
-.fa:hover {
+footer .fa:hover , #why-us .fa:hover{
   color: #ef962d;
   background: #fff;
 }
