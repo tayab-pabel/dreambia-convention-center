@@ -64,6 +64,23 @@ p {
   color: #fff;
 }
 
+button:hover, button:focus {
+  text-decoration: none!important;
+}
+
+.card {
+  border-bottom: 1px solid #fff!important;
+}
+
+.card,  .card-body{
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border: 0;
+}
+
 fieldset {
   border: 1px solid #ef962d;
 }
@@ -557,6 +574,11 @@ footer .fa:hover , #why-us .fa:hover{
 }
 /* === FOOTER SECTION END === */
 
+
+
+/* === WEDDING PAGE START === */
+
+/* === WEDDING PAGE END === */
 
 
 /* === MEDIA QUERIES END === */
