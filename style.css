@@ -133,8 +133,13 @@ legend {
   text-decoration: none;
 }
 
-#page-hero a:hover {
+#page-hero a:hover, .menu {
   color: #ef962d;
+}
+
+.list-group-item {
+  border: 0;
+  background-color: #F4F0EF;
 }
 /* === REUSABLE END === */
 
@@ -618,6 +623,20 @@ footer .fa:hover , #why-us .fa:hover{
     color: #FFF!important;
   }
 }
+
+/* === GALLERY SECTION START === */
+#gallery .tz-gallery .lightbox img {
+  width: 100%;
+  margin-bottom: 30px;
+  transition: 0.2s ease-in-out;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+#gallery .tz-gallery .lightbox img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+/* === GALLERY SECTION END === */
 
 @media (max-width: 786px){
   h1 {
